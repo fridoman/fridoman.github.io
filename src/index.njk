@@ -1,0 +1,47 @@
+---
+layout: base
+title: Michal akvaristika
+permalink: '/'
+heading: Michal akvaristika
+---
+
+<div class="container-xxl">
+    <div class="col-md-9 px-3 mx-auto">
+        <div class="text-center mt-20 mb-12">
+            <h1 class="display-3 ls-tight">
+                <span class="d-inline-flex text-transparent bg-clip-text gradient-bottom-right start-purple-500 end-indigo-400 position-relative">
+                    Michal</span> akvaristika
+            </h1>
+            <p class="text-lg font-semibold mt-5 px-lg-32">
+               Spoľahlivé informácie pre začinajúcich akvaristov od skúseného majiteľa niekoľkých akvárií
+            </p>
+        </div>
+        <div class="row g-6 g-lg-6">
+            {%- for post in collections.post -%}
+            <div class="col-12 col-md-6">
+                <div class="position-relative rounded-4 shadow-4-hover bg-surface-secondary">
+                    <div class="p-5 p-md-5 p-xl-10">
+                        <section>
+                            <header>
+                                <h1 class="h3 ls-tight mb-4">
+                                    {{ post.data.title }}
+                                </h1>
+                            </header>
+                            <p class="text-muted mb-5">
+                                {{ post.data.abstract }}
+                            </p>
+                            <footer>
+                                <a href="{{ post.url }}" class="font-semibold link-primary stretched-link">Čítaj viac -></a>
+                            </footer>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            {%- endfor -%}
+        </div>
+
+        <p class="text-muted text-sm font-semibold text-center my-12">
+            Made with <i class="bi bi-heart mx-1"></i> by <a href="https://github.com/frido">Frido</a>
+        </p>
+    </div>
+</div>

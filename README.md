@@ -1,50 +1,72 @@
-# jekyll-bootstrap-theme
+# Bootstrap Starter Kit
 
-Jekyll theme w/ Bootstrap; see a live demo @ [`henrythemes.github.io/jekyll-bootstrap-theme` »](http://henrythemes.github.io/jekyll-bootstrap-theme)
+Minimal starter template for websites using Bootstrap 5 and Webpixels CSS next to the Eleventy static site generator.
 
+[<img src="https://www.netlify.com/img/deploy/button.svg" />](https://app.netlify.com/start/deploy?repository=https://github.com/webpixels/bootstrap-starter-kit)
 
-Note: The theme uses the bootstrap sass/scss (source) version
-letting you change (override) all bootstrap css variables.
+<p><a href="https://bootstrap-starter-kit.webpixels.work/" target="_blank"><img src="https://webpixels.s3.eu-central-1.amazonaws.com/public/github/products/bootstrap-starter-kit.png" ></a></p>
 
-Example:
+## Features
 
-~~~
-tbd
-~~~
+* Includes Eleventy static site generator for building the layouts and pages
+* Includes Bootstrap (currently using v5) source files via npm
+* Includes Webpixels CSS as our design system based on Bootstrap 5
+* Includes npm scripts for compiling and autoprefixing Sass, compiling JS, watching for changes, and starting a basic local server
+* Example stylesheet (scss/main.scss)
+* Example JavaScript file (js/main.js) showing how to import all Bootstrap
+* HTML, CSS, and JS minification
 
+## Requirements
 
-Note: GitHub Pages has built-in support for sass/scss, thus, your static
-site will result in a single all-in-one-file stylesheet, that is, `style.css`.
+* [**Bootstrap 5**](https://getbootstrap.com/docs)
+* [**Webpixels CSS**](https://webpixels.io/docs/css/)
+* [**Eleventy**](https://www.11ty.dev/docs/)
+* [**Nunjucks**](https://mozilla.github.io/nunjucks/templating.html)
+* [**Parcel**](https://parceljs.org/docs/)
+* **Autoprefixer**
+* **Post CSS**
 
+## Getting Started
 
+For easier asset management we've chosen [Parcel](https://parceljs.org/). If you want to see all the npm scripts included for this starter kit, open the `package.json` file.
 
-## Build & Update Notes
+Next, navigate to the root folder of the site and run:
 
-- Get a copy of the [`bootstrap-sass`](https://github.com/twbs/bootstrap-sass)
-  archive - the official Sass port of Bootstrap
+```
+npm install
+```
 
-tbd
+To run a local server and watch for changes:
 
+```
+npm start
+```
 
+To build for production:
 
+```
+npm run build
+```
 
-## Alternative Jekyll Themes
+There is also a tutorial available on our website that explains the most important steps for the setup process. Read more about thow to [build JAMstack-ready sites with Bootstrap and 11ty (Eleventy)](https://webpixels.io/blog/how-to-get-started-with-bootstrap-and-eleventy).
 
-- [Shiori](https://github.com/ellekasai/shiori) by Elle Kasai
-  (ships w/ pre-defined color themes e.g. Dark, Turquoise, Green, Blue, Purple, Orange, Red)
+## Building modern interfaces
 
+Explore, copy, use and mix hundreds of carefully crafted components made just for Bootstrap. [Explore components](https://webpixels.io/components)
 
+## Community
 
-### More Themes
+Get updates on the development of our CSS tool and chat with the project maintainers and community members.
 
-See the [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) directory.
+- Follow [@webpxs](https://twitter.com/intent/user?screen_name=webpxs) on Twitter
+- Read and subscribe to [The Official Webpixels Blog](https://webpixels.io/blog)
+- Join [Github Discussions](https://github.com/webpixels/css/discussions)
 
-### More Quick Starter Wizard Scripts
+## Thank you
 
-See the [Mr. Hyde's Scripts](https://github.com/mrhydescripts/scripts) library.
+* [Zach Leatherman](https://11ty.dev)
+* [Mark Otto and the Team](https://github.com/twbs/bootstrap)
 
+## Copyright
 
-## Questions? Comments?
-
-Send them along to the [wwwmake forum](http://groups.google.com/group/wwwmake).
-Thanks!
+Made with ❤️ by [Webpixels](https://webpixels.io). Open-sourced software licensed under the MIT license.
