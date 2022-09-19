@@ -27,6 +27,11 @@ heading: Michal akvaristika
                                     {{ post.data.title }}
                                 </h1>
                             </header>
+                            {% if post.data.image %}
+                                <p class="text-muted mb-5">
+                                    <img src="{{ post.data.image }}" alt="Ekosystem v akvariu">
+                                </p>
+                            {% endif %}
                             <p class="text-muted mb-5">
                                 {{ post.data.abstract }}
                             </p>
