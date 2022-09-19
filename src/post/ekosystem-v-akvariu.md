@@ -10,7 +10,7 @@ Tak funguje ekosystem v ktorom žijeme a my si uvedomujeme čo je pre nás živo
 Akvárium je mini ekosystém v ktorom žijú **ryby**, **rastliny**, **baktérie** a **riasy**.
 Ich vyzájomné pôsobenie medzi sebou nám vytvára ekosystém, ktorý keď je dobre nastavený, tak sa rybám darí, rastliny bujnejú a voda je priezračne čistá.
 
-![Ekosystem v akvariu](assets/img/akvaristika2.jpg)
+![Ekosystem v akvariu](akvaristika2.jpg)
 
 Začnime rybami. Ryby potrebujú pre život **potravu** a **kyslík**.
 
